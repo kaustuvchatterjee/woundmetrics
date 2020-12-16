@@ -24,7 +24,7 @@ def load_image(image_file):
 st.title("Wound Metrics")
 """
 
-Wound Metrics is an app that automatically segments wounds to calculate size and estimate amount of tissue types.
+Wound Metrics is an app for estimating size and amount of tissue types in wounds.
 
 **Step-1**. Calibrate image. To calibrate image drag the corners of the marker over to points of known distance in the horizontal axis and enter the distance.
 
