@@ -24,6 +24,19 @@ def load_image(image_file):
 st.title("Wound Metrics")
 """
 
+Wound Metrics is an app to automatically segments wounds to calculate size and estimate amount of tissue types.
+
+**Step-1**. Calibrate image. To calibrate image drag the corners of the marker over to points of known distance in the horizontal axis and enter the distance.
+
+**Step-2**. Adjust the bounding box to select the wound.
+
+**Step-3**. Adjust the Threshold and Width sliders to get the best segmentation.
+
+Download sample wound images from https://github.com/kaustuvchatterjee/woundmetrics/tree/main/Images
+
+To load a new image, first refresh the browser :confused:.
+
+Works best on images that are evenly lit. It is a work in progress!
 """
 st.markdown("### Load Image")
 img_file = st.file_uploader(label='Upload a file', type=['png', 'jpg'])
@@ -89,7 +102,5 @@ if img_file is not None:
     st.image(sI,caption=sText)
     st.image(nI,caption=nText)
 
-# Clear cache and re-run
 
-st.button('Rerun')
 
