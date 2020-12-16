@@ -32,7 +32,7 @@ Wound Metrics is an app for estimating size and amount of tissue types in wounds
 
 **Step-3**. Adjust the Threshold and Width sliders to get the best segmentation.
 
-Download sample wound images from https://github.com/kaustuvchatterjee/woundmetrics/tree/main/Images
+Download sample wound images from [here](https://github.com/kaustuvchatterjee/woundmetrics/tree/main/Images).
 
 To load a new image, first refresh the browser :confused:.
 
