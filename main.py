@@ -26,7 +26,7 @@ st.title("Wound Metrics")
 
 Wound Metrics is an app for estimating size and amount of tissue types in wounds.
 
-**Step-1**. Calibrate image. To calibrate image drag the corners of the marker over to points of known distance in the horizontal axis and enter the distance.
+**Step-1**. Calibrate image. To calibrate image drag the corners of the marker over two points of known distance in the horizontal axis and enter the distance.
 
 **Step-2**. Adjust the bounding box to select the wound.
 
